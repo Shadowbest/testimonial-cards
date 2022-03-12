@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Repo URL: [Project Repo](https://github.com/Shadowbest/testimonial-cards)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Project Repo](https://github.com/Shadowbest/testimonial-cards)
+- [Project solution URL](https://shadowbest.github.io/testimonial-cards/)
 
 ## My process
 
