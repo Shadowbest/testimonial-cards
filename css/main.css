@@ -1,0 +1,46 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&display=swap');
+
+/* VARIABLES */
+:root {
+  --violet: hsl(263, 55%, 52%);
+  --grayish-blue: hsl(217, 19%, 35%);
+  --blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(0, 0%, 81%);
+  --light-greyish-blue: hsl(210, 46%, 95%);
+}
+
+/* GENERAL STYLING */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--light-greyish-blue);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 500;
+}
+
+/* UTILITY CLASSES */
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  clip-path: inset(50%);
+  clip: rect(0, 0, 0, 0);
+}
