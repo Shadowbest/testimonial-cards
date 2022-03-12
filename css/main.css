@@ -149,3 +149,40 @@ p {
   font-size: 0.875rem;
   font-weight: 500;
 }
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  body {
+    padding: 0;
+  }
+
+  .container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.75rem;
+  }
+
+  .card {
+    padding: 2.25rem;
+  }
+
+  .card--violet {
+    grid-column: 1 / span 2;
+  }
+
+  .card--dark {
+    grid-column: 2 / span 2;
+  }
+
+  .card--white:last-child {
+    grid-row: 1 / span 2;
+    grid-column: 4 / 5;
+  }
+
+  .card__lead-text {
+    font-size: 1.75rem;
+  }
+
+  .card__quote {
+    font-size: 1rem;
+  }
+}
